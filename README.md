@@ -11,11 +11,11 @@ A high-quality mesh was generated using the native Fluent Watertight Geometry me
 • Boundary Layers: Prism inflation layers added along the walls and cylinder interface to maintain a low \(y^{+}\) value.
 3. Boundary Conditions
 The physics configuration utilizes the following boundary conditions:
-• Inlet: velocity-inlet with a uniform velocity profile and specified inlet temperature (\(300\text{ K}\)).
-• Outlet: pressure-outlet maintaining atmospheric gauge pressure (\(0\text{ Pa}\)).
+• Inlet: velocity-inlet with a uniform velocity profile and specified inlet temperature (300 K).
+• Outlet: pressure-outlet maintaining atmospheric gauge pressure
 • Outer Wall: wall bounding the rectangular channel.
 • Fluid-Solid Interface: Automatic coupled wall zone mapping both heat flux and temperature fields continuously across boundaries.
-Results and Post-Processing
+4.Results and Post-Processing
 Fluid-Solid Temperature Distribution
 The temperature fields were evaluated using volume rendering and planar cross-sections in CFD-Post:
 • Volume Rendering: Illustrates the thermal wake developing directly downstream of the heated solid body as energy transfers into the fluid domain.
